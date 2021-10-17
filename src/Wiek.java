@@ -1,6 +1,6 @@
 public class Wiek {
     public static void main(String[] args) {
-        int Wiek =25;
+        int Wiek =35;
 
         if (Wiek < 0) return;
         if (Wiek > 100) return;
