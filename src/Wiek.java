@@ -1,8 +1,6 @@
-import javax.swing.*;
-
 public class Wiek {
     public static void main(String[] args) {
-        int Wiek =101 ;
+        int Wiek =25;
 
         if (Wiek < 0) return;
         if (Wiek > 100) return;
@@ -15,7 +13,6 @@ public class Wiek {
             System.out.println("Człowiek jest w średnim wieku");
         } else if (Wiek <= 100) {
             System.out.println("Człowiek jest stary");
-
         }
 
 
