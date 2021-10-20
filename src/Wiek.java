@@ -1,6 +1,9 @@
+import java.util.Scanner;
+
 public class Wiek {
     public static void main(String[] args) {
-        int wiek = 35;
+        System.out.print("Podaj wiek: ");
+        int wiek = new Scanner(System.in).nextInt();
 
         if (wiek < 0) return;
         if (wiek > 100) return;
