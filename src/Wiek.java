@@ -1,6 +1,6 @@
 public class Wiek {
     public static void main(String[] args) {
-        int Wiek =35;
+        int Wiek = 35;
 
         if (Wiek < 0) return;
         if (Wiek > 100) return;
@@ -14,8 +14,6 @@ public class Wiek {
         } else if (Wiek <= 100) {
             System.out.println("Człowiek jest stary");
         }
-
-
     }
 }
 
